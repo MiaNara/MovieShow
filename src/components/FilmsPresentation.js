@@ -59,7 +59,7 @@ export default function FilmsPresentation({ films }) {
                             closeIcon={<Icon>close</Icon>}
                             header={<CardTitle image={film.image} reveal waves="light" />}
                             reveal={
-                                <div>
+                                <div className="reveal_show">
                                     <p>{film.year}</p>
                                     <p>{film.nation}</p>
                                     <p>{film.description}</p>
